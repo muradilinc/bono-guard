@@ -5,7 +5,7 @@ import config from './config';
 import cors from 'cors';
 
 const app = express();
-const port = 8000;
+const port = 8040;
 
 app.use(express.json());
 app.use(cors());
