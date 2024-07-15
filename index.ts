@@ -3,7 +3,6 @@ import usersRouter from './routes/users';
 import mongoose from 'mongoose';
 import config from './config';
 import cors from 'cors';
-
 const app = express();
 
 app.use(express.json());

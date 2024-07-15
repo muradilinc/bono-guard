@@ -6,7 +6,7 @@ configDotenv({ path: envFile });
 
 const rootPath = __dirname;
 const config = {
-    port: parseInt(process.env['PORT'] || '8040'),
+    port: parseInt(process.env['PORT'] || '7000'),
     rootPath,
     mongoose: {
         db: 'mongodb://localhost/markets',
