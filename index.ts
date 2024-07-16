@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use('/users', usersRouter);
+app.use('/auth/users', usersRouter);
 
 const run = async () => {
     await mongoose.connect(config.mongoose.db);
